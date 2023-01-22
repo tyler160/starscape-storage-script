@@ -1,0 +1,5 @@
+local args = {
+    [1] = "StorageMenuToggled"
+}
+
+game:GetService("ReplicatedStorage").Remote.Missions.TriggerMission:FireServer(unpack(args))
